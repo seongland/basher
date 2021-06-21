@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { Command, Option } from 'commander'
-import { basher } from '../index'
+import basher from '../index'
 
 const consola = require('consola')
 const { version, description }: { version: string; description: string } = require('../../package.json')

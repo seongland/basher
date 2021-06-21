@@ -1,3 +1,5 @@
 import Auto from './auto'
 
-export const basher = new Auto.Basher()
+const basher = new Auto.Basher()
+
+export default basher
