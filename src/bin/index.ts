@@ -22,7 +22,7 @@ async function main() {
     .description('Basher Run')
     .addOption(boolOption)
     .addOption(stringOption)
-    .action(async (command: string, options: { bool: boolean; string: string }) => {
+    .action(async (command: string, options: { bool: boolean; string: string }): Promise<void> => {
       basher.run()
       consola.info(command, options)
     })
