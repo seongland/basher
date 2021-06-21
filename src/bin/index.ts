@@ -4,7 +4,7 @@ import { Command, Option } from 'commander'
 import { basher } from '../index'
 
 const consola = require('consola')
-const { version, description } = require('../../package.json')
+const { version, description }: { version: string; description: string } = require('../../package.json')
 const program = new Command()
 
 async function main() {
@@ -22,7 +22,7 @@ async function main() {
     .description('Basher Run')
     .addOption(boolOption)
     .addOption(stringOption)
-    .action(async (command, options) => {
+    .action(async (command: string, options: { bool: boolean; string: string }) => {
       basher.run()
       consola.info(command, options)
     })
@@ -30,4 +30,4 @@ async function main() {
   program.parse(process.argv)
 }
 
-main().catch(e => consola.error(e))
+main().catch((e: Error) => consola.error(e))
