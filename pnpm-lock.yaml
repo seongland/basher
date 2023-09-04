@@ -9,22 +9,22 @@ dependencies:
     specifier: ^4.1.2
     version: 4.1.2
   commander:
-    specifier: 10.0.0
-    version: 10.0.0
+    specifier: 10.0.1
+    version: 10.0.1
   consola:
     specifier: ^2.15.3
     version: 2.15.3
 
 devDependencies:
   '@types/node':
-    specifier: 18.11.9
-    version: 18.11.9
+    specifier: 18.17.14
+    version: 18.17.14
   pkg:
     specifier: ^4.5.1
     version: 4.5.1
   typescript:
-    specifier: 5.0.2
-    version: 5.0.2
+    specifier: 5.2.2
+    version: 5.2.2
 
 packages:
 
@@ -76,8 +76,8 @@ packages:
       fastq: 1.11.0
     dev: true
 
-  /@types/node@18.11.9:
-    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
+  /@types/node@18.17.14:
+    resolution: {integrity: sha512-ZE/5aB73CyGqgQULkLG87N9GnyGe5TcQjv34pwS8tfBs1IkCh0ASM69mydb2znqd6v0eX+9Ytvk6oQRqu8T1Vw==}
     dev: true
 
   /ajv@6.12.6:
@@ -221,8 +221,8 @@ packages:
       delayed-stream: 1.0.0
     dev: true
 
-  /commander@10.0.0:
-    resolution: {integrity: sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==}
+  /commander@10.0.1:
+    resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
     engines: {node: '>=14'}
     dev: false
 
@@ -1104,9 +1104,9 @@ packages:
       prelude-ls: 1.1.2
     dev: true
 
-  /typescript@5.0.2:
-    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
-    engines: {node: '>=12.20'}
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
