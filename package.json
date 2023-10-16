@@ -40,11 +40,11 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "11.0.0",
+    "commander": "11.1.0",
     "consola": "^3.2.3"
   },
   "devDependencies": {
-    "@types/node": "18.18.4",
+    "@types/node": "18.18.5",
     "pkg": "^4.5.1",
     "typescript": "5.2.2"
   }
